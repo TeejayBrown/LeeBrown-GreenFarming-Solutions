@@ -1,0 +1,414 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, aside, blockquote, address, span, em, strong, img, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:link, a:visited {
+  color: #952;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #cb7d20;
+  border-bottom: 1px dashed #cb7d20;
+}
+
+body{
+	background-image: url('../images/greenfarming.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	background-color: #b3b3b3;
+	border: 2px #000 solid;
+	font-weight: bold;
+	color: #FFF;
+	margin:0px 0px 0px 0px;
+	margin-top: -5px;
+}
+
+	nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		list-style: none;
+		padding: 0px;
+	}
+
+		nav ul li{
+			padding: 10px;
+		}
+
+			nav ul li a{
+				color: #FFF;
+				text-decoration: none;
+				font-size: 1.3em;
+			}
+
+			nav li a.current, nav li a.current:hover {
+				color: #fff;
+				cursor: default;
+			}
+
+			nav ul li a:hover, nav ul li a:focus, nav ul li a:active{
+				background-color: #6D6;
+			}
+
+			nav li a:link span.tagline, nav li a:visited span.tagline{
+				font: italic .8em Georgia, "Times New Roman", Times, serif;
+				color: #fff;
+				text-transform: none;
+				padding-top: .5em;
+				letter-spacing: 0;
+			}
+
+	#container{
+		width:813px;
+		margin:30px auto;
+		border-radius:10px;
+		background:#fff;
+		background: linear-gradient(178deg, #fff 90%, #e7e7e7 98%);
+		padding:10px;
+		border:#a1a1a1 solid 1px;
+		box-shadow: 1px 1px 1px #a1a1a1;
+	}
+
+	#mainheading{
+	background-image: url('../images/background1.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	image-rendering: pixelated;
+	justify-content: left;
+	height: 197px;
+	width:797px;
+	margin:0px 0px 0px 0px;
+	color: #FFF;
+	padding: 10px;
+	font-family: Verdana;
+	}
+
+	#mainheading h1{
+		font-size: 2.1em;
+	}
+
+	#maincontent{
+	margin-bottom: 50px;
+	display:flex;
+	}
+
+	#maincontent article{
+		background-color:#FFF;
+		margin-left: 20px;
+		margin-right: 10px;
+		font-family: Verdana;
+		flex:3;
+		order:2;
+	}
+
+	#maincontent article h2{
+		margin-top: 10px;
+		font-size:.9em;
+		font-weight: bold;
+	}
+	#maincontent article p{
+		font-size:.9em;
+		margin-bottom: 15px;
+		line-height: 1.5;
+		margin-right: 10px;
+	}
+
+	#maincontent aside{
+		flex:1;
+	}
+
+	aside{
+	font-size:.8em;
+	padding:0px;
+	}
+	aside p{
+		padding:10px 0px 0px 0px;
+		color:#666;
+		font-size: .85em;
+		margin-bottom: 0px;
+	}
+
+	aside p strong{
+		color:red;
+	}
+
+	aside h2{
+		margin-top:5px;
+		font-size:1.7em;
+		font-weight: bold;
+		color: red;
+	}
+ 
+/* For the Products Page*/
+
+	#productcontent h1{
+		margin:15px auto;
+	}
+	
+	#orderform{
+		width:790px;
+		padding:10px;
+		border:3px #111 solid;
+		background:#DDD;
+	}
+
+	fieldset #orderInfo{ 
+	border-radius: 10px;
+	margin:15px auto;
+	box-shadow: 2px 2px 4px #CCC, -2px -2px 4px #CCC; 
+	}
+
+	#orderInfo h3{
+		color:black;
+	}
+
+	#orderInfo ul{
+	list-style: none;
+	display: inline;
+	color:black;
+	}
+
+	#products li {
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: 5px auto;
+	}
+
+	#products li p {
+		font-size: 1.1em;
+		display: inline-block;
+		width:100%;
+		vertical-align: top;
+		float: left;
+	}
+
+	#products li p img {
+		float:left;
+		margin-top: 0px;
+		margin-right: 25px;
+		margin-left: 15px;
+		width:80px;
+		height:80px;
+	}
+
+	#products span {
+		margin-top: 10px;
+		display: block;
+		font-size: 1.7em;
+		font-weight:bold;
+		padding-left: 3px;
+	}
+
+	#clear, #clear1, #clear2 {
+		clear: both;
+	}
+
+	/*For the Contact Page*/
+	form{
+		width:850px;
+		margin:30px auto;
+		padding:10px;
+		border:3px #111 solid;
+		background:#DDD;
+		}
+
+	form ol{
+		list-style: none;
+		margin: 10px auto;
+		padding: 0px;
+	}
+
+	form li{
+		margin: 10px auto;
+	}
+
+	form label{
+		float:left;
+		width:150px;
+		text-align:right;
+	}
+
+	form textarea{
+		float:left;
+	}
+
+	form fieldset label
+	{
+		width:400px;
+		text-align: left;
+		border: none;
+	}
+
+	form fieldset
+	{
+		margin:5px auto;
+		clear:both;
+		text-align: center;
+		border: none;
+	}
+
+	form button
+	{
+		margin:0px auto;
+	}
+
+	form fieldset button{
+    margin-left: 20px;
+	}
+
+	form input:focus, select:focus, textarea:focus
+	{
+		background:red;
+		color:white;
+	}
+
+	form div, fieldset div{
+		font-size: .75em;
+		display: block;
+		padding: 2px;
+		color: red;
+		vertical-align: top;
+	}
+
+	#fname_error, #tel_error, #telformat_error, #email_error, #emailformat_error, #feedback_error{
+		display: none;
+		color: red;
+		font-weight: bold;
+		font-size: .8em;
+		margin-left: 150px;
+	} 
+
+	/* footer region */  
+	footer
+	{
+		clear:both;
+		width:789px;
+		height:55px;
+		padding:25px 0px;
+		margin:0px 0px 0px 0px;
+		border-radius:0px;
+		background:#fff;
+		background: linear-gradient(178deg, #fff 10%, #e7e7e7 90%);
+	}
+
+		footer ul, footer ol{
+		  	display:flex;
+		  	align-items: center;
+		  	justify-content: center;
+		  	list-style:none;
+		  	margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		footer ul li{	
+			margin: 0px 0px;
+			padding: 0 .5em;
+			border-left: solid 1px #000;
+			font-size: .7em;
+			line-height: 11px;
+		}
+
+		footer ol li{	
+			margin:0px 0px;
+			padding: 0 .5em;
+			color:#888;
+			border-left: solid 1px #000;
+			font-size: .6em;
+			line-height: 11px;
+		}
+
+		footer ul li:first-child,
+		footer ol li:first-child{
+			border-left: none;
+		}
+
+		footer h5{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+			color: #888;
+			font-size: .6em;
+			font-weight: normal;
+		}
+
+		footer a{
+		  text-decoration: none;
+		  color: #006699;
+		}
+
+		footer a:hover{
+			color:#F00;
+		}
+
+		footer a:focus{
+			background: #fdbb2d;
+		}
+
+@media (max-width: 640px){
+	#mainheading h1{
+		font-size: .9em;
+	}
+
+	nav ul{
+		list-style: none;
+		display:block;
+		padding: 0px;
+	}
+
+	nav ul li{
+		border: none;
+	}
+
+		nav ul li:hover, nav ul li:focus{
+			text-shadow: 2px 2px 1px #6D6;
+		}
+
+	#container{
+		width:313px;
+	}
+
+	#mainheading{
+	background-image: url('../images/background_small.jpg');
+	width:94.85%;
+	}
+
+	footer{
+		width:313px;
+	}
+
+	form{
+		width:290px;
+	}
+
+	form label{
+		float:left;
+		font-size: .7em;
+		width:80px;
+	}
+
+	form textarea{
+		width:250px;
+	}
+
+	#fname_error, #tel_error, #telformat_error, #email_error, #emailformat_error{
+		margin-left: 70px;
+	}
+
+	form fieldset button{
+    margin-left: 20px;
+	}
+
+	#orderform{
+		width:290px;
+	}
+
+}

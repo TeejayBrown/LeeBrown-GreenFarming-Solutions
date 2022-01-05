@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LeeBrown Greenfarming Solutions</title>
+		<link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css" media="all">
+		<script src="assets/javascripts/script.js"></script>
+	</head>
+	<body>
+		<section id = "container">	   
+			<header id="mainheading">
+				<h1>LeeBrown Greenfarming Solutions</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="products.html" title="Products">Products</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div id = "maincontent">
+				<form id="survey_form" method="post" 
+						 action="index.html" >
+					<ol>
+						<li>
+							<label for="fname">Full Name:</label>
+							<input type="text" autofocus id="fname" name="quantity" placeholder="Jane Doe"/>
+						</li>
+						<li>
+							<div class="error" id="fname_error">*Please enter your full name.</div>
+						</li>
+						<li>
+							<label for="tel">Phone Number:</label>
+							<input type="tel" id="tel" name="tel" placeholder="1234567890"/>
+						</li>
+						<li>
+							<div class="error" id="tel_error">*Please enter your phone number.</div>
+							<div class="error" id="telformat_error">* Invalid phone number</div>
+						</li>
+						<li>
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="abcd@gmail.com"/>
+						</li>
+						<li>
+							<div class="error" id="email_error">* Please enter your email address.</div>
+							<div class="error" id="emailformat_error">* Invalid email address</div>
+						</li>
+					</ol>
+
+					<fieldset>
+						<label for="feedback">Tell us how we can improve to serve you better</label><br />
+						<textarea id="feedback" name="feedback" rows="10" cols="80" placeholder="Describe your view here..."></textarea>
+						<div class="error" id="feedback_error">* This field can not be empty</div>
+					</fieldset>	
+					<fieldset>
+						<button id="submitButton" type="submit">Submit</button>
+						<button id="resetButton" type="reset">Reset</button>
+					</fieldset>
+				</form>
+			</div>
+	      	<footer>
+					<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li><a href="products.html" title="Products">Products</a></li>
+						<li><a href="contact.html" title="Contact">Contact</a></li>
+					</ul>
+					<h5>Copyright @ 2021 LeeBrown Greenfarming Solutions</h5>
+					<ol>
+						<li>123 Main Street, Winnipeg, MB, R2W 1K3, CA</li>
+						<li>Canada: 204.123.3456. Outside Canada: +1.204.123.9876</li>
+					</ol>
+			</footer>
+		</section>
+	</body>
+</html>
