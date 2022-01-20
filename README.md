@@ -9,4 +9,8 @@ List of all the products available.
 
 # Contacts
 
-Hoe to contact us.
+How to contact us.
+
+# Add functionality
+
+1. Add react to the index page
