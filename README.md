@@ -9,4 +9,4 @@ List of all the products available.
 
 # Contacts
 
-Hoe to contact us.
+How to contact us.
